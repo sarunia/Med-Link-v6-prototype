@@ -25,7 +25,9 @@ Jeśli połączenie jest prawidłowe, pozostało już tylko wgranie pliku poprze
 Aby nieco ułatwić użytkownikowi zapisanie własnego numeru pompy zrobimy to wprost z programu  STM32CubeProgrammer bez testowania komunikacji z pompą. Błędnie wpisany numer zawsze można poprawić.
 
 Procedura zapisania do pamięci FLASH 6-cyfrowego numeru ID pompy:
+
     • uruchomić STM32CubeProgrammer i nawiązać połaczenie poprzez kliknięcie "Connect"
+    
     • w zakładce "Memory & File edition" domyślnie otwiera się panel "Device memory", tak wygląda:
 ![](images/firmware_loaded.png)
 
